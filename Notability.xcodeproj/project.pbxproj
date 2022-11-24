@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2409CF7C292907D8008AEF6E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409CF7B292907D8008AEF6E /* ViewModel.swift */; };
+		2409CF862929399B008AEF6E /* NotesDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2409CF842929399B008AEF6E /* NotesDataContainer.xcdatamodeld */; };
+		2409CF8829296848008AEF6E /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409CF8729296848008AEF6E /* FavoriteView.swift */; };
+		2409CFAF292AA34C008AEF6E /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409CFAE292AA34C008AEF6E /* AnimationView.swift */; };
+		2409CFB7292B924B008AEF6E /* NotePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409CFB6292B924B008AEF6E /* NotePreview.swift */; };
+		2409CFB9292BB515008AEF6E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409CFB8292BB515008AEF6E /* Color.swift */; };
+		241590002922D3B4000A7A2E /* NotabilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24158FFF2922D3B4000A7A2E /* NotabilityApp.swift */; };
+		241590022922D3B4000A7A2E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241590012922D3B4000A7A2E /* Home.swift */; };
+		241590042922D3B4000A7A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241590032922D3B4000A7A2E /* Assets.xcassets */; };
+		241590072922D3B4000A7A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241590062922D3B4000A7A2E /* Preview Assets.xcassets */; };
+		2415900E2922DE8A000A7A2E /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2415900D2922DE8A000A7A2E /* AddNote.swift */; };
+		241590102923A0D1000A7A2E /* NotesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2415900F2923A0D1000A7A2E /* NotesGridView.swift */; };
+		2415901429252F66000A7A2E /* ScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2415901329252F66000A7A2E /* ScriptView.swift */; };
+		241590172925311E000A7A2E /* RichTextKit in Frameworks */ = {isa = PBXBuildFile; productRef = 241590162925311E000A7A2E /* RichTextKit */; };
+		2415903729263C78000A7A2E /* Paintview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2415903629263C78000A7A2E /* Paintview.swift */; };
+		24772D2C292CF1D100C25918 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24772D2B292CF1D100C25918 /* SharedView.swift */; };
+		24772D30292CFA8800C25918 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24772D2F292CFA8800C25918 /* LaunchView.swift */; };
+		24772D34292D01AB00C25918 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24772D33292D01AB00C25918 /* MyParticle.sks */; };
+		24772D36292D03E100C25918 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24772D35292D03E100C25918 /* LaunchScreenView.swift */; };
+		24772D56292D54AE00C25918 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24772D55292D54AE00C25918 /* Launch Screen.storyboard */; };
+		24A164AF292E6EC200153FD8 /* AnimateGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A164AE292E6EC200153FD8 /* AnimateGif.swift */; };
+		24A164B1292F6E5000153FD8 /* Bounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A164B0292F6E5000153FD8 /* Bounce.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2409CF7B292907D8008AEF6E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2409CF852929399B008AEF6E /* NotesDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		2409CF8729296848008AEF6E /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		2409CFAE292AA34C008AEF6E /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		2409CFB6292B924B008AEF6E /* NotePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreview.swift; sourceTree = "<group>"; };
+		2409CFB8292BB515008AEF6E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		24158FFC2922D3B4000A7A2E /* Notability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24158FFF2922D3B4000A7A2E /* NotabilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotabilityApp.swift; sourceTree = "<group>"; };
+		241590012922D3B4000A7A2E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		241590032922D3B4000A7A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241590062922D3B4000A7A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2415900D2922DE8A000A7A2E /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		2415900F2923A0D1000A7A2E /* NotesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesGridView.swift; sourceTree = "<group>"; };
+		2415901329252F66000A7A2E /* ScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptView.swift; sourceTree = "<group>"; };
+		2415903629263C78000A7A2E /* Paintview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paintview.swift; sourceTree = "<group>"; };
+		24772D2B292CF1D100C25918 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedView.swift; sourceTree = "<group>"; };
+		24772D2F292CFA8800C25918 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		24772D33292D01AB00C25918 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		24772D35292D03E100C25918 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		24772D55292D54AE00C25918 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		24A164AE292E6EC200153FD8 /* AnimateGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateGif.swift; sourceTree = "<group>"; };
+		24A164B0292F6E5000153FD8 /* Bounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bounce.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24158FF92922D3B4000A7A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241590172925311E000A7A2E /* RichTextKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24158FF32922D3B4000A7A2E = {
+			isa = PBXGroup;
+			children = (
+				2409CF842929399B008AEF6E /* NotesDataContainer.xcdatamodeld */,
+				2409CF7B292907D8008AEF6E /* ViewModel.swift */,
+				24158FFE2922D3B4000A7A2E /* Notability */,
+				24158FFD2922D3B4000A7A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24158FFD2922D3B4000A7A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24158FFC2922D3B4000A7A2E /* Notability.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24158FFE2922D3B4000A7A2E /* Notability */ = {
+			isa = PBXGroup;
+			children = (
+				24158FFF2922D3B4000A7A2E /* NotabilityApp.swift */,
+				24772D55292D54AE00C25918 /* Launch Screen.storyboard */,
+				2415901329252F66000A7A2E /* ScriptView.swift */,
+				241590012922D3B4000A7A2E /* Home.swift */,
+				24A164B0292F6E5000153FD8 /* Bounce.swift */,
+				24772D2B292CF1D100C25918 /* SharedView.swift */,
+				2409CFAE292AA34C008AEF6E /* AnimationView.swift */,
+				24772D2F292CFA8800C25918 /* LaunchView.swift */,
+				24772D35292D03E100C25918 /* LaunchScreenView.swift */,
+				24772D33292D01AB00C25918 /* MyParticle.sks */,
+				2409CF8729296848008AEF6E /* FavoriteView.swift */,
+				2409CFB6292B924B008AEF6E /* NotePreview.swift */,
+				2415900D2922DE8A000A7A2E /* AddNote.swift */,
+				2415900F2923A0D1000A7A2E /* NotesGridView.swift */,
+				24A164AE292E6EC200153FD8 /* AnimateGif.swift */,
+				2415903829263C8A000A7A2E /* Paint */,
+				241590032922D3B4000A7A2E /* Assets.xcassets */,
+				241590052922D3B4000A7A2E /* Preview Content */,
+			);
+			path = Notability;
+			sourceTree = "<group>";
+		};
+		241590052922D3B4000A7A2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				241590062922D3B4000A7A2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2415903829263C8A000A7A2E /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				2415903629263C78000A7A2E /* Paintview.swift */,
+				2409CFB8292BB515008AEF6E /* Color.swift */,
+			);
+			path = Paint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24158FFB2922D3B4000A7A2E /* Notability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2415900A2922D3B4000A7A2E /* Build configuration list for PBXNativeTarget "Notability" */;
+			buildPhases = (
+				24158FF82922D3B4000A7A2E /* Sources */,
+				24158FF92922D3B4000A7A2E /* Frameworks */,
+				24158FFA2922D3B4000A7A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notability;
+			packageProductDependencies = (
+				241590162925311E000A7A2E /* RichTextKit */,
+			);
+			productName = Notability;
+			productReference = 24158FFC2922D3B4000A7A2E /* Notability.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24158FF42922D3B4000A7A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					24158FFB2922D3B4000A7A2E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 24158FF72922D3B4000A7A2E /* Build configuration list for PBXProject "Notability" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24158FF32922D3B4000A7A2E;
+			packageReferences = (
+				241590152925311E000A7A2E /* XCRemoteSwiftPackageReference "RichTextKit" */,
+			);
+			productRefGroup = 24158FFD2922D3B4000A7A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24158FFB2922D3B4000A7A2E /* Notability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24158FFA2922D3B4000A7A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241590072922D3B4000A7A2E /* Preview Assets.xcassets in Resources */,
+				24772D34292D01AB00C25918 /* MyParticle.sks in Resources */,
+				24772D56292D54AE00C25918 /* Launch Screen.storyboard in Resources */,
+				241590042922D3B4000A7A2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24158FF82922D3B4000A7A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2409CF7C292907D8008AEF6E /* ViewModel.swift in Sources */,
+				2409CFB7292B924B008AEF6E /* NotePreview.swift in Sources */,
+				241590022922D3B4000A7A2E /* Home.swift in Sources */,
+				2415901429252F66000A7A2E /* ScriptView.swift in Sources */,
+				2409CFB9292BB515008AEF6E /* Color.swift in Sources */,
+				24772D30292CFA8800C25918 /* LaunchView.swift in Sources */,
+				2409CF8829296848008AEF6E /* FavoriteView.swift in Sources */,
+				241590002922D3B4000A7A2E /* NotabilityApp.swift in Sources */,
+				24772D36292D03E100C25918 /* LaunchScreenView.swift in Sources */,
+				24772D2C292CF1D100C25918 /* SharedView.swift in Sources */,
+				24A164B1292F6E5000153FD8 /* Bounce.swift in Sources */,
+				24A164AF292E6EC200153FD8 /* AnimateGif.swift in Sources */,
+				2409CF862929399B008AEF6E /* NotesDataContainer.xcdatamodeld in Sources */,
+				241590102923A0D1000A7A2E /* NotesGridView.swift in Sources */,
+				2409CFAF292AA34C008AEF6E /* AnimationView.swift in Sources */,
+				2415900E2922DE8A000A7A2E /* AddNote.swift in Sources */,
+				2415903729263C78000A7A2E /* Paintview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		241590082922D3B4000A7A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		241590092922D3B4000A7A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2415900B2922D3B4000A7A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notability/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X3GF5PXZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mmcaliendo22-fed.idserve.net.Notability";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2415900C2922D3B4000A7A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notability/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X3GF5PXZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mmcaliendo22-fed.idserve.net.Notability";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24158FF72922D3B4000A7A2E /* Build configuration list for PBXProject "Notability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241590082922D3B4000A7A2E /* Debug */,
+				241590092922D3B4000A7A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2415900A2922D3B4000A7A2E /* Build configuration list for PBXNativeTarget "Notability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2415900B2922D3B4000A7A2E /* Debug */,
+				2415900C2922D3B4000A7A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		241590152925311E000A7A2E /* XCRemoteSwiftPackageReference "RichTextKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/RichTextKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		241590162925311E000A7A2E /* RichTextKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 241590152925311E000A7A2E /* XCRemoteSwiftPackageReference "RichTextKit" */;
+			productName = RichTextKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2409CF842929399B008AEF6E /* NotesDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2409CF852929399B008AEF6E /* NotesDataContainer.xcdatamodel */,
+			);
+			currentVersion = 2409CF852929399B008AEF6E /* NotesDataContainer.xcdatamodel */;
+			path = NotesDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24158FF42922D3B4000A7A2E /* Project object */;
+}
