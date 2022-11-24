@@ -23,7 +23,7 @@ struct ScriptView: View {
     @ObservedObject var vm: ViewModel
     let note: NoteEntity?  //= nil
     @State var title: String = ""
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.dismiss) var dismiss // dismiss della view quando premi il done (funziona sia con un modale che con il navigation)
     
 
     init(vm: ViewModel, note: NoteEntity? = nil) {
